@@ -150,7 +150,7 @@ public class SpaceCompany {
         }
         keyword = ans;
         
-		if(method.equals("1"){
+		if(method.equals("1")){
 			searchSQL += "WHERE Spacecraft_Model.Agency LIKE ?";
 			stmt = mySQLDB.prepareStatement(searchSQL);
 			stmt.setString(1, keyword);//exact
